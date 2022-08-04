@@ -18,3 +18,5 @@ const vowelCount = () => {
     return counter;
 }
 
+userInput.addEventListener("keyup", vowelCount);
+
