@@ -22,8 +22,8 @@ body {
 }
 
 .box {
-    width: 40rem;
-    max-width: 70%;
+    width: 40%;
+    /* max-width: 70%; */
     height: 30rem;
     padding: 2rem 0.5rem;
     border-radius: 0.5rem;
@@ -63,5 +63,29 @@ body {
     background: #9c9e7b;
     padding: 0.25rem 1rem;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+    #title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .box {
+        width: 85%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width: 451px) {
+    #title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .box {
+        width: 85%;
+        height: auto;
+    }
+    
 }
 
