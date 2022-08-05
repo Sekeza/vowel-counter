@@ -10,7 +10,7 @@
 body {
     height: 100vh;
     background: linear-gradient(to right,#9ca42b, #45490c);
-   }
+}
     
 .box-container {
     display: flex;
@@ -18,7 +18,6 @@ body {
     justify-content: center;
     min-height: 80%;
     margin: 2.5rem 0;
-    padding: 0 2rem;
 }
 
 .box {
@@ -41,13 +40,13 @@ body {
 }
 
 #text-zone {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     width: 80%;
     height: 70%;
     resize: none;
     border: 0.1rem solid rgba(0,0,0,0.1);
     border-radius: 0.3rem;
-    box-shadow: 0 0 0.02rem 0.05rem rgba(0,0,0,0.1);
+    box-shadow: 0 0 0.02rem 0.04rem rgba(0,0,0,0.1);
     padding: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 0.5rem;
@@ -64,6 +63,8 @@ body {
     border-radius: 50%;
 }
 
+
+
 @media screen and (max-width: 1023px) {
     #title {
         font-size: 2.5rem;
@@ -76,15 +77,5 @@ body {
     
 }
 
-/* @media screen and (min-width: 451px) {
-    #title {
-        font-size: 2.5rem;
-        margin-bottom: 1.5rem;
-    }
-    .box {
-        width: 85%;
-        height: auto;
-    }
-    
-} */
+
 
