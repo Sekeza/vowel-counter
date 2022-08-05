@@ -12,9 +12,9 @@ const vowelCount = () => {
     // Loop through the text entered
     for(let i = 0; i < valueStr.length; i++) {
         // Check if the alphabet's vowels were inputed
-        if(arrVowel.includes(valueStr[i])) {
-            console.log("i: " + valueStr[i]);
-            counter++;
+        if(arrVowel.indexOf(valueStr[i]) !== -1) {
+          console.log("i: " + valueStr[i]);
+          counter++;
         }
     }
     // Show the number incresing as the user enters a vowel
